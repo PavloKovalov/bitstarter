@@ -73,7 +73,7 @@ var saveUrlToFile = function(result, response){
 	var checkJson = checkHtmlFile(bufferFile, program.checks);
 	var outJson = JSON.stringify(checkJson, null, 4);
 	console.log(outJson);
-//	fs.unlinkSync(bufferFile);
+	fs.unlinkSync(bufferFile);
     }
 }
 
