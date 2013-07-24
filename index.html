@@ -7,8 +7,6 @@
     <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link type="text/css" rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
     <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
-    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
-    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
     <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic">
     <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,300italic,400italic,600italic,700italic">
     <style type="text/css">
@@ -51,7 +49,7 @@
         font-size: 24px;
         line-height: 30px;
     }
-    p {
+    p, ul > li {
         font-size: 18px;
         line-height: 24px;
     }
@@ -93,8 +91,19 @@
     .footer a {
         color: #ccf;
     }
-    
+    span.copyleft {
+        font-size: 10px;
+        color: #eee;
+        display: block;
+        float: right;
+    }
+    span.copyleft * {
+        color: #eee;
+    }
     </style>
+
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
   </head>
   <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -132,7 +141,7 @@
 
         <div class="row-fluid pitch">
             <div class="span5 offset1 video">
-                <img class="img-polaroid" src="http://i.minus.com/iyfMHnbpUGFJ2.png" alt="" style="max-width: 480px"/>
+                <img class="img-polaroid" src="http://img692.imageshack.us/img692/3589/ot0j.png"/>
             </div>
             <div class="span5 actions">
                 <div class="span8 offset2">
@@ -172,7 +181,10 @@
         </div>
 
         <div class="row-fluid section1">
-            <div class="span5 offset1 asset"><img style="max-width: 480px" class="img-polaroid" src="http://farm8.staticflickr.com/7095/7215052318_14fea59a18.jpg" alt=""></div>
+            <div class="span5 offset1 asset">
+              <img class="img-polaroid" style="display: block; width: 100%;" src="http://photos.foter.com/143/real-madrid-cf-stadium-estadio-santiago-bernabeu-madrid-spain-hdr-3_l.jpg">
+              <span class="copyleft"><a href="http://www.flickr.com/photos/marcp_dmoz/4138211812/" rel="nofollow">marcp_dmoz</a> / <a href="http://foter.com" rel="nofollow">Foter</a> / <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/" rel="nofollow">CC BY-NC-SA</a></span>
+            </div>
             <div class="span5 copy">
                 <p>
                     If you want to know what's happening around you?<br>
@@ -189,14 +201,17 @@
                 <h3 class="heading">Main goal includes features</h3>
                 <ul>
                     <li>Socially connected - attach your Facebook, Foursquare, Twitter, Google+ profiles</li>
-                    <li>Geolocation friendly - one tap to see what's going around</li>
+                    <li>Geolocation friendly - one tap to see what's going around you</li>
                     <li>Google Calendar and iCal compatible</li>
                     <li>Setup once and forget</li>
                     <li>Flexible notification setting system is not going to bother you</li>
                     <li>Supports Android, iOS</li>
                 </ul>
             </div>
-            <div class="span5 asset"><img class="img-polaroid" src="http://placehold.it/480x300" alt=""/></div>
+            <div class="span5 asset">
+              <img class="img-polaroid" style="display: block; width: 100%;" src="http://photos.foter.com/109/_the-subs-live-concert-ancienne-belgique-bruxelles-5344_l.jpg">
+              <span class="copyleft"><a href="http://www.flickr.com/photos/frf_kmeron/5621805722/" rel="nofollow">Kmeron</a> / <a href="http://foter.com" rel="nofollow">Foter</a> / <a href="http://creativecommons.org/licenses/by-nc-nd/2.0/" rel="nofollow">CC BY-NC-ND</a></span>
+            </div>
         </div>
 
         <div class="row-fluid section3">
@@ -249,8 +264,7 @@
         <div class="row-fluid footer">
             <div class="span12">
                 <p>
-                This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC By-SA 3.0</a>
-                , without all the cruft that would otherwise be put at the bottom of the page.
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a>.
                 </p>
             </div>
         </div>
